@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Bootstrap Components</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <style>
+  @media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+  } 
+  </style>
+
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="/">NBA Stats History</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+    
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Top Players by PER 
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="playerPage?name=Michael%20Jordan">1. Michael Jordan</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="playerPage?name=LeBron%20James">2. LeBron James</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="playerPage?name=Anthony%20Davis">3. Anthony Davis</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="playerPage?name=Shaquille%20O%27Neal">4. Shaquille O'Neal</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="playerPage?name=David%20Robinson">5. David Robinson</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="playerPage?name=Wilt%20Chamberlain">6. Wilt Chamberlein</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="playerPage?name=Bob%20Pettit">7. Bob Pettit</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="playerPage?name=Kevin%20Durant">8. Kevin Durant</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="playerPage?name=Chris%20Paul">9. Chris Paul</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="playerPage?name=James%20Harden">10. James Harden</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="playerPage?name=Neil%20Johnston">11. Neil Johnston</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="playerPage?name=Charles%20Barkley">12. Charles Barkley</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="playerPage?name=Kareem%20Abdul%2DJabbar">13. Kareem Abdul-Jabbar</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="playerPage?name=Tim%20Duncan">14. Tim Duncan</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="playerPage?name=Magic%20Johnson">15. Magic Johnson</a>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    <div class='p-md-5 m-md-3 text-center' style= 'height:650px; background-position:10vw;background-size:80vw; background-repeat:no-repeat; background-image:url("https://www.itl.cat/pngfile/big/95-955352_basketball-gif.gif")'>
+      <div class="col-md-5 p-lg-5 mx-auto my-5" style= 'background:white; border-radius:30px; box-shadow:2px 4px 4px #ccc; opacity:0.8'>
+        <h1 class="display-4 font-weight-normal">NBA Stats History!</h1>
+        <p class="lead font-weight-normal">Featuring the last 50 years of Statistical Data on players from the NBA. How has the game changed?</p>
+      </div>
+    </div>
+  <img src='../static/Resources/DefensiveTimeline.png' style='width:80vw; margin-left:10vw'>
+  <img src='../static/Resources/OffensiveTimeline.png' style='width:80vw; margin-left:10vw'>
+  <img src='../static/Resources/MiscellaneousTimeline.png' style='width:80vw; margin-left:10vw'>
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>  
+          
+</body>
+</html>
